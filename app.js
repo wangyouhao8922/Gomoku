@@ -6,7 +6,7 @@ const { deleteOne } = require('./models/stonesplacement');
 const StonePlacement = require('./models/stonesplacement');
 
 //change const here ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-const dbURI = 'mongodb+srv://stanleylol:oiuytrewedf@cluster0.hxpeu4r.mongodb.net/fcc-mongodb-and-mongoose?retryWrites=true&w=majority';
+const dbURI = process.env.DBURI;
 
 //connect to mongodb
 mongoose.set('strictQuery', true);
