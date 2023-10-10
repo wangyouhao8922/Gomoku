@@ -1,0 +1,6 @@
+Install node and all the modules.
+Enter 'node app.js' to start local server.
+change const dbURI in app.js file to your own mongoDB URI
+Open broswer enter 'http://localhost:3000/' in URL to start a new match.
+enter 'http://localhost:3000/player2' in URL to be second player.
+To restart a match enter 'http://localhost:3000/', then refresh 'http://localhost:3000/player2'. Note: old match will be delete simultaneously. 

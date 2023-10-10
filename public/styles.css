@@ -1,0 +1,87 @@
+.stoneplace {
+    display: block;
+    margin-top: -11.5px;
+    width: 40px;
+    padding: 0px;
+    height: 40px;
+    display: inline-block;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.stoneplace:hover {
+    background-color: rgba(220, 220, 220, 0.498);
+}
+
+button:disabled {
+    color: #000000 ;
+}
+
+.white {
+    border: 3px black solid;
+    border-radius: 20px 20px;
+    background-color: white;
+    height: 34px;
+    width: 34px;
+    display: inline-block;
+    margin-top: -11.5px;
+    position: relative;
+    top: -3px;
+}
+.black {
+    background-color: black;
+    border: 3px black solid;
+    border-radius: 20px 20px;
+    height: 34px;
+    width: 34px;
+    display: inline-block;
+    margin-top: -11.5px;
+    position: relative;
+    top: -3px;
+    
+}
+
+#board {
+    width: 600px;
+    margin-top: 0px;
+    position: absolute;
+    left: -18.5px;
+    top: -7px;
+}
+
+.horizontal {
+    border-style: solid;
+    border-width: 1.5px;
+    height: 0px;
+    width: 37px;
+    position: relative;
+    top: -21.5px;
+    z-index: -1;
+}
+.vertical {
+    border-style: solid;
+    border-width: 1.5px;
+    height: 37px;
+    width: 0px;
+    position: relative;
+    left: 18.5px;
+    z-index: -1;
+}
+
+#boardedge {
+    border: 18.5px solid white;
+    width: 563px;
+    height: 521px;
+    margin: auto;
+    position: absolute;
+    top: calc(50vh - 310px);
+    left: calc(50vw - 307.5px);
+    /*z-index: 0;*/
+}
+
+h1 {
+    text-align: center;
+}
+
+#display {
+    margin: -20px;
+}

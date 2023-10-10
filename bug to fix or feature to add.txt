@@ -1,0 +1,8 @@
+bug:
+Board grid is not square
+Add environment const, and stop player from changing const.
+
+feature:
+Add user login and regist.
+Able to setup multiple match at same time.
+Add match replay system.
