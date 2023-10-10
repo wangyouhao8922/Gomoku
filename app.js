@@ -30,13 +30,14 @@ app.get('/player2', (req, res) => {
 
 //create database for a match
 let placementObject;
-let win = 0;
+let win;
 app.get('/', (req, res) => {
     StonePlacement.deleteOne({'__v':0})
     .then((result) => {
         console.log(result)
         })
         turn = 1;
+        win = 0;
     const stonePlacement = new StonePlacement({
         'match1': [
             [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],

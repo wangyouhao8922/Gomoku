@@ -1,3 +1,4 @@
+Gomoku
 Install node and all the modules.
 Enter 'node app.js' to start local server.
 change const dbURI in app.js file to your own mongoDB URI
